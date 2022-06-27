@@ -82,6 +82,13 @@
 
 /*MAIN SECTION - end*/
 
-footer .container bg-main {
+/*FOOTER SECTION - START*/
+
+footer.container {
     padding-top: 0;
+    text-align: center;
+    line-height: 1.6em;
 }
+
+
+/*FOOTER SECTION - END*/
