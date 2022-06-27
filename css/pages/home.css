@@ -19,7 +19,13 @@
 /*HERO SECTION - START*/
 .hero {
     padding-bottom: 20px;
-}
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    }
 
 .hero > .row-short {
     display: flex;
@@ -82,6 +88,13 @@
 
 /*MAIN SECTION - end*/
 
-footer .container bg-main {
+/*FOOTER SECTION - START*/
+
+footer.container {
     padding-top: 0;
+    text-align: center;
+    line-height: 1.6em;
 }
+
+
+/*FOOTER SECTION - END*/
