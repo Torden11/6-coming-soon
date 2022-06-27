@@ -13,10 +13,33 @@
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
-/*custom style goes below this comment, please */
+/*custom style goes below this comment line */
 
-section.container.bg-main {
+.hero {
     padding-bottom: 20px;
+}
+
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 60px;
+    width:100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.main-description{
+    font-size: 20px;
 }
 
 footer.container {
