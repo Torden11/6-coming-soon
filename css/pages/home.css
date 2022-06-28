@@ -8,7 +8,8 @@
 
 /*components*/
 @import '../components/button.css';
-@import '../components/clock.css';
+/*@import '../components/clock-flex.css';*/
+@import '../components/clock-grid.css';
 @import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
@@ -133,7 +134,7 @@ footer.container {
 
 .credits{
     display: flex;
-    gap: 30px;
+    gap: 0 30px;
     color: #fff8;
     justify-content: center;
 }
@@ -179,7 +180,19 @@ footer.container {
    .main-content > * {
     width: 100%;
    }
+    .credits > p::after {
+   display: none; 
+    }
+    .credits {
+        flex-direction: column; 
+         }
 }
+
+
+
+
+
+
 
 @media (max-width: 500px) {
     .main-title {
