@@ -90,10 +90,20 @@
             <div class="column right-column">
                 <h2 class="column-title"> Have any questions?</h2>
                 <p class="column-description">You can use contact form below or contact us via email at <a href="mailto:petras@pastas.lt">petras@pastas.lt</a>. Contact form is working and very easy to customize.</p>
-                <form class="form">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <textarea name="" id="" placeholder="Message"></textarea>
+                <form class="form" autocomplete="on">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="name" placeholder="Text here">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="name" type="email" placeholder="Text here">
+                    </div>
+                    <div class="form-group-2">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" placeholder="Text here"></textarea>
+                    </div>
+                    
                     <button type="submit">Send message</button>
                 </form>
             </div>  
