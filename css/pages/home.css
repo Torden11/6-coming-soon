@@ -13,6 +13,7 @@
 @import '../components/form.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
+@import '../components/progress-bar-new.css';
 
 /*custom style goes below this comment line */
 
@@ -106,6 +107,7 @@ footer.container {
     flex-wrap: wrap;
     padding: 20px 0;
     border-bottom: 2px solid #fff;
+    position: relative;
 }
 
 .socials > a {
@@ -123,6 +125,19 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
+}
+
+.socials > .back-to-top {
+    position:absolute;
+    top: -20px;
+    right: -20px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+.socials > .back-to-top:hover {
+    color: var(--secondary-color);
+
 }
 
 .footer-logo {
@@ -198,4 +213,10 @@ footer.container {
     .main-title {
     font-size: 50px;
    }
+
+
+.socials > .back-to-top {
+    display: none;
+}
+
 }
