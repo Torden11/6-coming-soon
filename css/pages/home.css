@@ -11,6 +11,7 @@
 /*@import '../components/clock-flex.css';*/
 @import '../components/clock-grid.css';
 @import '../components/form.css';
+@import '../components/form-top.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 @import '../components/progress-bar-new.css';
@@ -205,7 +206,13 @@ footer.container {
 
 
 
-
+@media (max-width: 620px) {
+    .row-short > .bottom-text,
+    .row-short > .main-description {
+        width: 300px;
+        display: inline-block;
+    }
+}
 
 
 
