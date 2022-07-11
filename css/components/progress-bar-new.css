@@ -18,7 +18,7 @@
 
 }
 
-.progress-bar > .bottom {
+.progress-bar-new > .bottom {
     height: 8px;
     width: 100%;
     background-color: #ccc;
@@ -27,27 +27,20 @@
 
 }
 
-.progress-bar > .bottom > .bar {
+.progress-bar-new > .bottom >.bar {
     height: 100%;
     width: 90%;
-    background-color: transparent;
-   }
-
-.progress-bar .bar > .loading {
-    height: 100%;
-    width: 100%;
     background-color: var(--main-color);
-    animation-name: loading;
+    animation-name: loading-new;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
 }
 
-@keyframes loading {
+@keyframes loading-new {
     0% {
-        width: 0;
+        transform: translateX(-100%);
     }
     100% {
-        width: 100%;
+        transform: translateX(0);
     }
     
 }
